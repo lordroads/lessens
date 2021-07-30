@@ -2,7 +2,7 @@ using System;
 
 namespace lessens{
     class ViewMessage{
-        public static void View(IMassage message){
+        public static void View(IMessage message){
             if(message is ErrorMessage){
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(message.GetText());

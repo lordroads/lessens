@@ -1,7 +1,7 @@
 namespace lessens{
     class MessageFactory : AbstractFactory
     {
-        public override IMassage GetMessage(MessageType type, string text)
+        public override IMessage GetMessage(MessageType type, string text)
         {
             switch(type)
             {

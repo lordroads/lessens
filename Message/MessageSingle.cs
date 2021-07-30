@@ -1,5 +1,5 @@
 namespace lessens{
-    class MessageSingle : IMassage{
+    class MessageSingle : IMessage{
         private string _text;
         protected string _recipient;
 
