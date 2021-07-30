@@ -7,7 +7,7 @@ namespace lessens
         static void Main(string[] args)
         {
             AbstractFactory _factory = new MessageFactory();
-            ViewMessage.View(_factory.GetMessage(MessageType.Info, "You are Welcome..."));
+            ViewMessage.View(_factory.GetMessage(MessageType.Info, "You are Welcome Now..."));
             ViewMessage.View(_factory.GetMessage(MessageType.Alert, "Что то идет не так, как должно идти...типа Винимание!"));
             ViewMessage.View(_factory.GetMessage(MessageType.Error, "Все накрылось медным тазом!! =)) "));
             Console.ReadLine();
