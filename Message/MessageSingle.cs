@@ -3,7 +3,7 @@ namespace lessens{
         private string _text;
         protected string _recipient;
 
-        protected MessageSingle(string text, string recipient = "NONE"){
+        protected MessageSingle(string text, string recipient){
             _text = string.Join(' ', $"[ {recipient} ]", text);
             _recipient = recipient;
         }
